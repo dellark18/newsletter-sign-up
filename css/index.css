@@ -4,12 +4,45 @@ body{
     font-family: 'Roboto', sans-serif; 
 }
 .container {
-    height: 80vh;
-    width: 60%;
-    border-radius: 5%;
+    height: 75vh;
+    width: 55%;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
     margin-top: 100px;
+}
+.card-1 {
+    margin-left: 60px;
+}
+.heading-text {
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #242742;
+}
+.paragraph-text {
+    margin-top: 25px;
+}
+.key-text-1, .key-text-2, .key-text-3 {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 17px;
+    color: #242742;
+}
+.check-1, .check-2, .check-3 {
+    margin-top: 10px;
+}
+.subscribe-form {
+    margin-bottom: -50px;
+}
+.btn-primary {
+    background-color: #242742;
+    padding: 10px 10px 10px 10px;
+    border-color: #242742;
+}
+.illustration {
+    width: 325px;
+    margin-left: 20px;
 }
