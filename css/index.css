@@ -3,7 +3,7 @@ body{
     overflow: hidden;
     font-family: 'Roboto', sans-serif; 
 }
-.container {
+.container-fluid {
     height: 75vh;
     width: 55%;
     border-radius: 40px;
@@ -34,6 +34,9 @@ body{
 .check-1, .check-2, .check-3 {
     margin-top: 10px;
 }
+.form-label {
+    color: #242742;
+}
 .subscribe-form {
     margin-bottom: -50px;
 }
@@ -41,8 +44,33 @@ body{
     background-color: #242742;
     padding: 10px 10px 10px 10px;
     border-color: #242742;
+    width: 380px;
 }
 .illustration {
     width: 325px;
     margin-left: 20px;
 }
+#error {
+    font-size: 10px;
+    color: #000000;
+}
+/* @media (min-width: 375px) and (max-width: 480px) {
+    .container-fluid {
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card-1 {
+        margin-bottom: -600px;
+        margin-left: -50px;
+        position: absolute;
+        padding-bottom: 100px;
+    }
+    .card-2 {
+        margin-top: -500px;
+        position: relative;
+    }
+} */
