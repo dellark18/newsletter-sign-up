@@ -1,6 +1,6 @@
-let errorMessage = document.getElementById("error");
-console.log(errorMessage)
+let errorMessage = document.getElementById("invalidEmail");
 
 function submit() {
-    console.log("button clicked");
+    alert("A button is clicked")
+    errorMessage.textContent = "Valid email required"
 }
