@@ -51,3 +51,7 @@ body{
     /* width: 365px; */
     margin-top: 15px;
 }
+.btn-primary:hover {
+    background-image: linear-gradient(90deg, #FF527B 0%, #FF6a3a 100%);
+    border-image: linear-gradient(90deg, #FF527B 0%, #FF6a3a 100%);
+}
