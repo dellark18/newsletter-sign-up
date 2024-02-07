@@ -55,3 +55,7 @@ body{
     background-image: linear-gradient(90deg, #FF527B 0%, #FF6a3a 100%);
     border-image: linear-gradient(90deg, #FF527B 0%, #FF6a3a 100%);
 }
+.illustration-desktop {
+    width: 335px;
+    margin: 15px 0px 0px 22px;
+}
