@@ -59,3 +59,58 @@ body{
     width: 335px;
     margin: 15px 0px 0px 22px;
 }
+.illustration-mobile {
+    display: none;
+}
+.visible-xs {
+    display: none;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        overflow: hidden;
+    }
+    .card-1 {
+        position: absolute;
+        z-index: 2;
+        margin: 190px 0px 0px -10px;
+    }
+    .card-2 {
+        position: relative;
+        z-index: 1;
+    }
+    .container {
+        height: 900px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    .illustration-desktop {
+        display: none;
+    }
+    .illustration-mobile {
+        display: block;
+        position: relative;
+        width: 319px;
+        margin: -10px 0px 0px -12px;
+    }
+    .heading-text, .paragraph-text {
+        white-space: normal;
+        width: 295px; 
+    }
+    .visible-xs {
+        display: block;
+    }
+    .key-text-1, .key-text-2, .key-text-3 {
+        white-space: nowrap;
+        float: left;
+        margin: -24px 0px 0px 17px;
+    }
+    .form-control {
+        width: 280px;
+    }
+    .btn-primary {
+        width: 280px;
+        padding: 10px 10px 10px 10px;
+    }
+}
