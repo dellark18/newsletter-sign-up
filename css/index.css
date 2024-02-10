@@ -67,7 +67,6 @@ body{
 @media (min-width: 319px) and (max-width: 480px) {
     body {
         overflow-x: hidden;
-        border:solid red;
     }
     .card-1 {
         position: absolute;
@@ -90,7 +89,7 @@ body{
     .illustration-mobile {
         display: block;
         position: relative;
-        width: 412px;
+        width: 414px;
         margin: -100px 0px 0px -12px;
     }
     .heading-text {
