@@ -1,6 +1,6 @@
 body{
     background-color: #36384D;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif; 
 }
 .container {
@@ -68,7 +68,7 @@ body{
 
 @media (min-width: 319px) and (max-width: 480px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .card-1 {
         position: absolute;
