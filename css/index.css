@@ -73,7 +73,7 @@ body{
     .card-1 {
         position: absolute;
         z-index: 2;
-        margin: 190px 0px 0px -10px;
+        margin: 220px 0px 0px 0px;
     }
     .card-2 {
         position: relative;
@@ -91,26 +91,37 @@ body{
     .illustration-mobile {
         display: block;
         position: relative;
-        width: 319px;
-        margin: -10px 0px 0px -12px;
+        width: 480px;
+        margin: -100px 0px 0px -12px;
     }
-    .heading-text, .paragraph-text {
-        white-space: normal;
+    .heading-text {
+        white-space: nowrap;
         width: 295px; 
+        font-size: 40px;
+    }
+    .paragraph-text {
+        white-space: nowrap;
+        font-size: 20px;
     }
     .visible-xs {
         display: block;
     }
-    .key-text-1, .key-text-2, .key-text-3 {
+    .key-text-1, .key-text-2 {
         white-space: nowrap;
         float: left;
         margin: -24px 0px 0px 17px;
+        font-size: 20px;
+    }
+    .key-text-3 {
+        white-space: nowrap;
+        margin: -1px 0px 0px -5px;
+        font-size: 20px;
     }
     .form-control {
-        width: 280px;
+        width: 420px;
     }
     .btn-primary {
-        width: 280px;
+        width: 420px;
         padding: 10px 10px 10px 10px;
     }
 }
