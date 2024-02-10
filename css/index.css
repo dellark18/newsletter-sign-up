@@ -1,14 +1,12 @@
 body{
     background-color: #36384D;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif; 
 }
 .container {
     height: 75vh;
     width: 55%;
     border-radius: 40px;
-    align-items: center;
-    justify-content: center;
     background-color: #ffffff;
     margin-top: 100px;
 }
@@ -69,6 +67,7 @@ body{
 @media (min-width: 319px) and (max-width: 480px) {
     body {
         overflow-x: hidden;
+        border:solid red;
     }
     .card-1 {
         position: absolute;
@@ -91,7 +90,7 @@ body{
     .illustration-mobile {
         display: block;
         position: relative;
-        width: 480px;
+        width: 412px;
         margin: -100px 0px 0px -12px;
     }
     .heading-text {
@@ -118,10 +117,10 @@ body{
         font-size: 20px;
     }
     .form-control {
-        width: 420px;
+        width: 360px;
     }
     .btn-primary {
-        width: 420px;
+        width: 360px;
         padding: 10px 10px 10px 10px;
     }
 }

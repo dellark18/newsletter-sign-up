@@ -1,6 +1,6 @@
 function submit() {
     const email = getElementById("email").value;
-    var regEx = /\S+@\S+\.\S+/;
+    var regEx = /\S+@\S+\.\S+/; i 
     if (regEx.test(email)) {
         document.getElementById("errorNotification").textContent = "Correct email";
     } else {
