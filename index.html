@@ -48,9 +48,9 @@
         <div class="subscribe-form">
           <label id="email-label" for="exampleInputEmail" class="form-label">Email address</label>
           <p id="error-email"></p>
-          <input id="email-field" type="email" class="form-control" placeholder="email@company.com" onkeyup="validateEmail()">
+          <input id="email-field" type="email" class="form-control" placeholder="email@company.com">
           <div class="d-grid gap-2">
-            <button onclick="submit()" type="button" class="btn btn-primary">Subscribe to monthly newsletter</button>  
+            <button id="btn1" onclick="submit()" type="button" class="btn btn-primary">Subscribe to monthly newsletter</button>  
           </div>
         </div>
       </div>
@@ -60,7 +60,14 @@
         <img class="illustration-mobile" src="./assets/images/illustration-sign-up-mobile.svg" alt="mobile-illustration">
       </div>
     </div>
-  </div>
+
+    <div class="popup" id="popup">
+      <img src="./assets/images/icon-success.svg" alt="successful-icon">
+      <h2>Thanks for <br> subscribing</h2>
+      <p>A confirmation email has been sent to <span id="email-input"></span>. Please open it and click the button inside to confirm your subscription.</p>
+      <button class="btn" type="button" onclick="closePopup()">Dismiss message</button>
+    </div>
+  </div> 
   <script src="./index.js"></script>
 </body>
 </html>
