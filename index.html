@@ -46,11 +46,11 @@
 
         <br>
         <div class="subscribe-form">
-          <label for="exampleInputEmail" class="form-label">Email address</label>
-          <p id="errorNotification" hidden></p>
-          <input id="email" type="email" class="form-control" placeholder="email@company.com">
+          <label id="email-label" for="exampleInputEmail" class="form-label">Email address</label>
+          <p id="error-email"></p>
+          <input id="email-field" type="email" class="form-control" placeholder="email@company.com" onkeyup="validateEmail()">
           <div class="d-grid gap-2">
-            <button onclick="submit()" type="button" class="btn btn-primary">Subscribe to monthly newsletter</button>
+            <button onclick="submit()" type="button" class="btn btn-primary">Subscribe to monthly newsletter</button>  
           </div>
         </div>
       </div>
